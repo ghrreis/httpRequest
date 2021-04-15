@@ -1,6 +1,6 @@
 import requests
 
-headers = {'accept':'application/json', 'user-agent':'zeruela/0.1'}
+headers = {'accept':'application/json', 'user-agent':'meuNavegador/0.1'}
 
 client = requests.get('https://httpbin.org/html', headers=headers)
 
